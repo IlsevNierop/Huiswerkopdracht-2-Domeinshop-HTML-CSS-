@@ -10,40 +10,137 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*(grijs #899CA0 en donkergroen #1C2B32)*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
+body {
+    font-family: Poppins, sans-serif;
+}
 
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-
-
 /*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url('../assets/images/mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.header {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0 400px 0;
+    color: #1C2B32;
 
 
+}
+
+.title {
+    font-size: 70px;
+
+}
+
+.subtitle {
+    font-size: 9px;
+    padding: 15px 0 25px 0;
+
+}
+
+.header input {
+    font-size: 9px;
+    margin-right: -2px;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid #1C2B32;
+    padding: 13px 85px 13px 15px;
+    background-color: transparent;
+
+
+}
+
+.header input:focus {
+    outline: none;
+}
+
+.header input::placeholder {
+    color: #1C2B32;
+    overflow: visible;
+}
+
+
+.header button {
+    background-color: #1C2B32;
+    border: 0;
+    font-size: 9px;
+    padding: 14px 20px 14px 15px;
+    color: white;
+    margin-left: -2px;
+    border-radius: 0 15px 15px 0;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+a {
+    color: #899CA0;
 
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
+.support {
+    position: relative;
+}
+
+.support p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.support img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.support button {
+    background-color: #1C2B32;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 20px 15px 20px;
+    font-size: 12px;
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
