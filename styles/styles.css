@@ -27,6 +27,7 @@ Table of Contents:
 ////////////////////////*/
 body {
     font-family: Poppins, sans-serif;
+    color: #1C2B32;
 }
 
 
@@ -46,7 +47,7 @@ header {
     width: 1000px;
     margin: auto;
     text-align: center;
-    padding: 100px 0 400px 0;
+    padding: 60px 0 300px 0;
     color: #1C2B32;
 
 
@@ -58,8 +59,9 @@ header {
 }
 
 .subtitle {
-    font-size: 9px;
+    font-size: 11px;
     padding: 15px 0 25px 0;
+    margin: 15px 0 15px 0;
 
 }
 
@@ -93,18 +95,61 @@ header {
     margin-left: -2px;
     border-radius: 0 15px 15px 0;
 }
-
+.header button:hover{
+    cursor: pointer;
+}
 main {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
-
 h3 {
     text-align: center;
+    margin: 40px 0 40px 0;
+    font-size: 28px;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+.testimonials > article{
+    position: relative;
+    padding:30px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 35px 0 35px 0;
+    border-radius: 10px;
+}
+
+.testimonials > article {
+    font-size: 13px;
+}
+
+.testimonials-text{
+    padding: 20px 40px 10px 40px;
+}
+
+.testimonials > article > div {
+    padding: 10px 40px 0 40px ;
+    font-style: italic;
+
+}
+.testimonials > article > div > img {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+
+}
+.testimonials > article > div > span {
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.testimonials > article > img {
+    width: 20px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+
+/*///////////// 3.3 Support /////////////*/
 a {
     color: #899CA0;
 
@@ -114,19 +159,17 @@ a:hover {
     text-decoration: none;
 }
 
-/*///////////// 3.3 Support /////////////*/
-
 .support {
-    position: relative;
 }
 
 .support p {
     text-align: left;
     font-size: 15px;
+    padding: 18px 0 18px 0;
 }
 
 .support img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -134,13 +177,42 @@ a:hover {
     background-color: #1C2B32;
     color: white;
     border: 0;
-    border-radius: 25px;
-    padding: 15px 20px 15px 20px;
-    font-size: 12px;
+    border-radius: 30px;
+    padding: 23px 25px 23px 25px;
+    font-size: 15px;
 }
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+.faq{
+    width: 100%;
+}
+
+.faq details > summary{
+    font-size: 13px;
+    padding: 15px 0 15px 0;
+
+}
+.faq details > summary:hover{
+    cursor: pointer;
+}
+.faq details > p {
+    background-color: #899CA0;
+    color: white;
+    border-radius: 15px;
+    padding: 23px;
+    font-size: 13px;
+}
+
+
 
 /*///////////// 3.5 Footer /////////////*/
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    background-color: #1C2B32;
+    color: white;
+    padding: 20px 0 20px 0;
+}
